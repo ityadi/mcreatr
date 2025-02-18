@@ -60,13 +60,19 @@
     "zod": "^3.24.1",
     "@emotion/is-prop-valid": "latest",
     "@types/react": "latest",
+    "@remix-run/react": "latest",
+    "@sveltejs/kit": "latest",
+    "svelte": "latest",
+    "vue": "latest",
+    "vue-router": "latest",
     "framer-motion": "latest",
     "@emotion/react": "latest",
     "react-helmet-async": "latest",
     "react-error-boundary": "latest",
     "react-icons": "latest",
     "react-dropzone": "latest",
-    "react-colorful": "latest"
+    "react-colorful": "latest",
+    "@vercel/analytics": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",
