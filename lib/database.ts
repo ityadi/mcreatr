@@ -7,7 +7,7 @@ export const database = {
       name: "Organic Cotton",
       price: 2.99,
       description:
-        "Eco-friendly v-neck t-shirt made from 100% organic cotton. Perfect for those who prioritize sustainability.",
+        "Eco-friendly t-shirt made from 100% organic cotton. Perfect for those who prioritize sustainability.",
       image:
         "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Black%20Illustrative%20Savage%20T-Shirt.zip%20-%207-FmvvUthu9VlGr6UeVQDkj0RuSikZSy.png",
       category: "T-Shirts",

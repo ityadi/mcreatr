@@ -6,7 +6,6 @@ import { RegionProvider } from "@/lib/regionContext"
 import { ThemeProvider } from "@/components/theme-provider"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-// import PageLayout from "@/components/PageLayout" //Removed as per instructions
 import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/react"
 

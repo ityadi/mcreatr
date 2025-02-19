@@ -46,10 +46,8 @@ export default function Home() {
     <ErrorBoundary FallbackComponent={ErrorFallback}>
       <RegionProvider>
         <main className="min-h-screen">
-          {/* Dynamic Video Section */}
-          <div className="relative w-full h-screen overflow-hidden">
-            <DynamicTextVideo className="absolute top-0 left-0 w-full h-full object-cover" />
-          </div>
+          {/* Product Listing */}
+          <ProductGrid />
 
           {/* Promo Section */}
           <MCreatrPromo />
@@ -57,8 +55,11 @@ export default function Home() {
           {/* Business Opportunity Section */}
           <BusinessOpportunitySection />
 
-          {/* Product Listing */}
-          <ProductGrid />
+         
+           {/* Dynamic Video Section */}
+          <div className="relative w-full h-screen overflow-hidden">
+            <DynamicTextVideo className="absolute top-0 left-0 w-full h-full object-cover" />
+          </div>
         </main>
       </RegionProvider>
     </ErrorBoundary>
